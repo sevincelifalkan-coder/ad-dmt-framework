@@ -1,0 +1,41 @@
+parameter,value,description,source
+country,Ireland,Country name,
+wtp,45000,WTP threshold EUR/QALY,HIQA
+total_pop,5150000,Total population,CSO 2024
+prev_65plus,0.165,Proportion 65+,CSO 2024
+ad_prevalence,0.07,AD prevalence 65+,Cahill 2012
+early_stage_pct,0.35,Early-stage proportion,Literature
+diagnosed_pct,0.55,Diagnosed proportion,NDO Ireland
+amyloid_pos_pct,0.70,Amyloid confirmed,Togher 2022
+eligible_pct,0.80,Meeting eligibility,Clinical
+tp_mci_mild,0.15,Annual TP MCI to Mild,Natural history
+tp_mild_mod,0.20,Annual TP Mild to Mod,Natural history
+tp_mod_sev,0.25,Annual TP Mod to Sev,Natural history
+tp_mci_death,0.02,Annual TP MCI to Death,Life tables
+tp_mild_death,0.04,Annual TP Mild to Death,Life tables
+tp_mod_death,0.08,Annual TP Mod to Death,Life tables
+tp_sev_death,0.25,Annual TP Sev to Death,Life tables
+prop_mci,0.70,Starting prop in MCI,Clinical
+u_mci,0.73,Utility MCI-AD,Landeiro 2020
+u_mild,0.68,Utility Mild AD,Landeiro 2020
+u_mod,0.54,Utility Moderate AD,Landeiro 2020
+u_sev,0.38,Utility Severe AD,Landeiro 2020
+u_aria_decrement,0.05,ARIA utility decrement,Literature
+c_mci,4200,Annual cost MCI EUR,HSE
+c_mild,12800,Annual cost Mild EUR,Connolly 2014
+c_mod,28500,Annual cost Mod EUR,HSE home care
+c_sev,52000,Annual cost Sev EUR,Fair Deal
+lec_hr,0.69,Lecanemab HR,CLARITY-AD
+lec_tx_months,18,Lecanemab duration mo,CLARITY-AD
+lec_drug_annual,24766,Lecanemab annual EUR,US WAC
+lec_diag,3200,Diagnostic workup EUR,PET+MRI+APOE4
+lec_monitoring,2100,Monitoring cost EUR,6 MRI
+lec_aria_e,0.126,ARIA-E incidence,CLARITY-AD
+lec_aria_h,0.173,ARIA-H incidence,CLARITY-AD
+don_hr,0.73,Donanemab HR,TRAILBLAZER-ALZ 2
+don_tx_months,12,Donanemab duration mo,TRAILBLAZER-ALZ 2
+don_drug_total,24500,Donanemab total EUR,US WAC
+don_diag,3200,Diagnostic workup EUR,PET+MRI+APOE4
+don_monitoring,2450,Monitoring cost EUR,7 MRI
+don_aria_e,0.240,ARIA-E incidence,TRAILBLAZER-ALZ 2
+don_aria_h,0.313,ARIA-H incidence,TRAILBLAZER-ALZ 2
